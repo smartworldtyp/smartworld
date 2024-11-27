@@ -1064,7 +1064,7 @@ the website, in dark theme
   }
 
   .footer__container {
-    grid-template-columns: 1fr .5fr .5fr .5fr;
+    grid-template-columns: 1fr .5fr .5fr;
   }
 
   .footer__copy {

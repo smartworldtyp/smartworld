@@ -12,7 +12,10 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--=============== Glide ===============-->
+    <link rel="stylesheet" href="css/glide.core.min.css">
 
     <title>smart world</title>
 </head>
@@ -61,18 +64,83 @@
     </header>
 
     <main class="main">
+
+        <section class="home-banner">
+            <div class="col-lg-9 mx-auto">
+                <div class="glide" id="intro">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide">
+                                <div class="slide_bg">
+                                    <div class="swiper-text">
+                                        <div class="position-relative fit-content">
+                                            <img src="images/apj.webp" class="img-fluid" alt="">
+                                            <div class="play-btn">
+                                                <img src="img/Artboard 1.png" alt="">
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="slide_bg">
+                                    <div class="swiper-text">
+                                        <div class="position-relative fit-content">
+                                            <img src="img/Artboard 2.png" class="img-fluid" alt="">
+                                            <div class="play-btn">
+                                                <img src="images/play-button-arrowhead 1.svg" alt="">
+                                            </div>
+                                        </div>
+                                        
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="slide_bg">
+                                    <div class="swiper-text">
+                                        <div class="position-relative fit-content">
+                                            <img src="img/Artboard 1.png" class="img-fluid" alt="">
+                                            <div class="play-btn">
+                                                <img src="images/play-button-arrowhead 1.svg" alt="">
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="glide__bullets" data-glide-el="controls[nav]">
+                            <div class="glide__bullet"></div>
+                            <div class="glide__bullet- active"></div>
+                            <div class="glide__bullet"></div>
+                        </div>
+                    </div>
+                    <div data-glide-el="controls">
+                        <button class="slider-prev" data-glide-dir="<">
+                            <img src="images/arrow-circle-right.svg" alt="">
+                        </button>
+                        <button class="slider-next" data-glide-dir=">">
+                            <img src="images/arrow-circle-right.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
         <!--==================== HOME ====================-->
         <section class="home" id="home">
             <div class="home__container container grid">
-                <img src="img/head-page.jpeg" alt="" class="home__img">
+                <img src="img/full-length-portrait-happy-family.jpg" alt="" class="home__img">
 
                 <div class="home__data">
                     <h1 class="home__title">
-                        Document Typing and Photocopying Services in UAE
+                        Sporting goods  <br> Store-Doha
                     </h1>
                     <p class="home__description">
-                        Our expert team in the UAE offers professional document typing and photocopying services to
-                        cater to all your business and personal needs.
+                        We are selling Football, Cricket, basketball and Fitness clothes and accessories
                     </p>
                     <a href="#about" class="button button--flex">
                         Explore <i class="ri-arrow-right-down-line button__icon"></i>
@@ -86,7 +154,7 @@
                         <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
                             <i class="ri-facebook-fill"></i>
                         </a>
-                        <a href="https://www.instagram.com/smartworldtyp/" target="_blank" class="home__social-link">
+                        <a href="https://instagram.com/q_sports_?igshid=YmMyMTA2M2Y=" target="_blank" class="home__social-link">
                             <i class="ri-instagram-line"></i>
                         </a>
                         <a href="https://twitter.com/" target="_blank" class="home__social-link">
@@ -96,6 +164,9 @@
                 </div>
             </div>
         </section>
+
+
+
 
         <!--==================== ABOUT ====================-->
         <section class="about section container" id="about">
@@ -236,6 +307,7 @@
 
         <!--==================== PRODUCTS ====================-->
         <section class="product section container" id="products">
+            <img id="theme-image" class="theme-image" src="img/light-theme-image.png" alt="Theme Image">
             <h2 class="section__title-center">
                 Proudly Associated With Leading <br> UAE Organizations
             </h2>
@@ -434,6 +506,10 @@
         </section>
     </main>
 
+
+
+
+
     <!--==================== FOOTER ====================-->
     <footer class="footer section">
         <div class="footer__container container grid">
@@ -501,9 +577,9 @@
             </div>
              ==============-->
         </div>
-       
 
-            <p class="footer__copy">&#169; nihaL'scode. All rigths reserved</p>
+
+        <p class="footer__copy">&#169; nihaL'scode. All rigths reserved</p>
     </footer>
 
     <!--=============== SCROLL UP ===============-->
@@ -512,10 +588,13 @@
     </a>
 
     <!--=============== SCROLL REVEAL ===============-->
-    <script src="script.min.js"></script>
+    <script src="js/script.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
-    <script src="script.js"></script>
+    <script src="js/glide.js"></script>
+    <script src="js/script.js"></script>
+
+
 </body>
 
 </html>

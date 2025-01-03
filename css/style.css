@@ -221,9 +221,7 @@ the website, in dark theme
   color: var(--title-color);
 }
 
-.home-banner {
-  padding-top: 85px;
-}
+
 
 .nav__logo {
   text-transform: uppercase;
@@ -1016,6 +1014,9 @@ the website, in dark theme
   .footer__subscribe {
     width: initial;
   }
+  .home-banner {
+    padding-top: 85px;
+  }
 }
 
 /* For large devices */
@@ -1117,6 +1118,8 @@ the website, in dark theme
   .footer__copy {
     margin: 7rem 0 2rem;
   }
+
+  
 }
 
 @media screen and (min-width: 1200px) {

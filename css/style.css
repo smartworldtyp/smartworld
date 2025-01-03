@@ -114,12 +114,14 @@ img {
   height: auto;
 }
 
-.home-banner img{
+.home-banner img {
   width: 100%;
 }
-.theme-image{
+
+.theme-image {
   width: 200px;
 }
+
 /*=============== THEME ===============*/
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
@@ -218,7 +220,8 @@ the website, in dark theme
 .nav__close {
   color: var(--title-color);
 }
-.home-banner{
+
+.home-banner {
   padding-top: 85px;
 }
 
@@ -233,7 +236,7 @@ the website, in dark theme
   font-size: 25px;
 }
 
-.home-img{
+.home-img {
   gap: 100px;
 }
 
@@ -880,6 +883,17 @@ the website, in dark theme
     margin-right: var(--mb-1);
   }
 
+  .nav__logo {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -1px;
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+    transition: .3s;
+    font-size: 14px;
+  }
+
   .home__img {
     /* width: 180px; */
   }
@@ -902,10 +916,27 @@ the website, in dark theme
   }
 }
 
+@media screen and (max-width: 520px) {
+  .nav__logo img {
+    width: 15%;
+  }
+}
+
 /* For medium devices */
 @media screen and (min-width: 576px) {
   .steps__container {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .nav__logo {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -1px;
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+    transition: .3s;
+    font-size: 14px;
   }
 
   .product__description {
@@ -932,6 +963,8 @@ the website, in dark theme
     height: calc(var(--header-height) + 1.5rem);
     column-gap: 3rem;
   }
+
+
 
   .nav__toggle,
   .nav__close {

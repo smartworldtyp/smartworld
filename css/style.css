@@ -333,7 +333,7 @@ the website, in dark theme
 }
 
 .home__img {
-  width: 200px;
+  /* width: 200px; */
   justify-self: center;
 }
 
@@ -434,7 +434,7 @@ the website, in dark theme
 }
 
 .about__img {
-  width: 280px;
+  /* width: 280px; */
   justify-self: center;
 }
 
@@ -1013,9 +1013,9 @@ the website, in dark theme
     padding-right: 7rem;
   }
 
-  .about__img {
+  /* .about__img {
     width: 380px;
-  }
+  } */
 
   .steps__container {
     grid-template-columns: repeat(3, 1fr);

@@ -114,6 +114,12 @@ img {
   height: auto;
 }
 
+.home-banner img{
+  width: 100%;
+}
+.theme-image{
+  width: 200px;
+}
 /*=============== THEME ===============*/
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
@@ -173,7 +179,7 @@ the website, in dark theme
 }
 
 .container {
-  max-width: 967px;
+  max-width: 1700px;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
@@ -212,6 +218,9 @@ the website, in dark theme
 .nav__close {
   color: var(--title-color);
 }
+.home-banner{
+  padding-top: 85px;
+}
 
 .nav__logo {
   text-transform: uppercase;
@@ -221,10 +230,15 @@ the website, in dark theme
   align-items: center;
   column-gap: .5rem;
   transition: .3s;
+  font-size: 25px;
+}
+
+.home-img{
+  gap: 100px;
 }
 
 .nav__logo img {
-  width: 20%;
+  width: 22%;
 }
 
 .nav__logo-icon {
@@ -336,7 +350,7 @@ the website, in dark theme
 .home__social {
   position: absolute;
   top: 2rem;
-  right: -1rem;
+  right: 0rem;
   display: grid;
   justify-items: center;
   row-gap: 3.5rem;
@@ -988,11 +1002,11 @@ the website, in dark theme
   }
 
   .home {
-    padding: 13rem 0 5rem;
+    padding: 8rem 0 5rem;
   }
 
   .home__img {
-    width: 350px;
+    width: 100%;
   }
 
   .home__description {
@@ -1074,7 +1088,7 @@ the website, in dark theme
 
 @media screen and (min-width: 1200px) {
   .home__social {
-    right: -3rem;
+    right: 0rem;
     row-gap: 4.5rem;
   }
 

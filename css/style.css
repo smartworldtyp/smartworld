@@ -864,6 +864,19 @@ the website, in dark theme
   bottom: 3rem;
 }
 
+.whatsapp-fixed {
+  position: fixed;
+  background-color: var(--first-color);
+  right: 5rem;
+  bottom: 10%;
+  display: inline-flex;
+  padding: .5rem;
+  border-radius: .25rem;
+  z-index: var(--z-tooltip);
+  opacity: .8;
+  transition: .4s;
+}
+
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar {
   width: .6rem;

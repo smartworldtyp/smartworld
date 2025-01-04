@@ -122,6 +122,7 @@ img {
   width: 200px;
 }
 
+
 /*=============== THEME ===============*/
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
@@ -166,7 +167,7 @@ the website, in dark theme
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 5.5rem 0 1rem;
+  padding: 3rem 0 1rem;
 }
 
 .section__title,
@@ -432,10 +433,11 @@ the website, in dark theme
 /*=============== ABOUT ===============*/
 .about__container {
   row-gap: 2rem;
+  align-items: center;
 }
 
 .about__img {
-  /* width: 280px; */
+  width: 100%;
   justify-self: center;
 }
 
@@ -874,7 +876,7 @@ the website, in dark theme
 }
 
 /*=============== BREAKPOINTS ===============*/
-/* For small devices */
+/*-------------------------------------------------------------------- For medium devices --------------------------------------------------------------------*/
 @media screen and (max-width: 320px) {
   .container {
     margin-left: var(--mb-1);
@@ -892,9 +894,6 @@ the website, in dark theme
     font-size: 14px;
   }
 
-  .home__img {
-    /* width: 180px; */
-  }
 
   .home__title {
     font-size: var(--h1-font-size);
@@ -918,7 +917,33 @@ the website, in dark theme
   .nav__logo img {
     width: 15%;
   }
+  
 }
+
+/*-------------------------------------------------------------------- For medium devices --------------------------------------------------------------------*/
+@media screen and (max-width: 767px) {
+  .nav__logo {
+    font-size: 14px;
+  }
+
+  .nav__logo img {
+    width: 18%;
+}
+}
+
+
+@media screen and (max-width: 992px) {
+  .nav__logo {
+    font-size: 18px;
+  }
+}
+
+/*-------------------------------------------------------------------- For medium devices --------------------------------------------------------------------*/
+@media screen and (max-width: 1200px) {}
+
+/*------------------------ For Min Width ----------------------*/
+
+/*-------------------------------------------------------------------- For medium devices --------------------------------------------------------------------*/
 
 /* For medium devices */
 @media screen and (min-width: 576px) {
@@ -926,16 +951,7 @@ the website, in dark theme
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .nav__logo {
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: -1px;
-    display: inline-flex;
-    align-items: center;
-    column-gap: .5rem;
-    transition: .3s;
-    font-size: 14px;
-  }
+
 
   .product__description {
     padding: 0 4rem;
@@ -950,6 +966,7 @@ the website, in dark theme
   .footer__subscribe {
     width: 400px;
   }
+
 }
 
 @media screen and (min-width: 767px) {
@@ -961,6 +978,7 @@ the website, in dark theme
     height: calc(var(--header-height) + 1.5rem);
     column-gap: 3rem;
   }
+
 
 
 
@@ -995,9 +1013,11 @@ the website, in dark theme
   }
 
   .home__img {
-    width: 280px;
-    order: 1;
+    width: 100%;
+    order: 0;
   }
+
+
 
   .home__social {
     top: 30%;
@@ -1014,13 +1034,31 @@ the website, in dark theme
   .footer__subscribe {
     width: initial;
   }
+
   .home-banner {
     padding-top: 85px;
   }
+
+  .home__container {
+    column-gap: 3rem;
+  }
+
+  .about__container {
+    column-gap: 3rem;
+  }
+
+  .about__img {
+    width: 100%;
+    justify-self: center;
+  }
+
+
+
 }
 
 /* For large devices */
 @media screen and (min-width: 992px) {
+
   .container {
     margin-left: auto;
     margin-right: auto;
@@ -1119,7 +1157,7 @@ the website, in dark theme
     margin: 7rem 0 2rem;
   }
 
-  
+
 }
 
 @media screen and (min-width: 1200px) {

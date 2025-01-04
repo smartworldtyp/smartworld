@@ -17,6 +17,8 @@
     <!--=============== Glide ===============-->
     <link rel="stylesheet" href="css/glide.core.min.css">
 
+    <link rel="icon" type="image/png" href="img/Logo.png" style="">
+
     <title>smart world</title>
 </head>
 
@@ -54,7 +56,7 @@
 
             <div class="nav__btns">
                 <!-- Theme change button -->
-                <i class="ri-moon-line change-theme" id="theme-button"></i>
+                <!-- <i class="ri-moon-line change-theme" id="theme-button"></i> -->
 
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="ri-menu-line"></i>
@@ -65,7 +67,7 @@
 
     <main class="main">
 
-        <section class="home-banner">
+        <section class="home-banner container">
             <div class="col-lg-9 mx-auto">
                 <div class="glide" id="intro">
                     <div class="glide__track" data-glide-el="track">
@@ -87,29 +89,17 @@
                                 <div class="slide_bg">
                                     <div class="swiper-text">
                                         <div class="position-relative fit-content">
-                                            <img src="img/Artboard 2.png" class="img-fluid" alt="">
+                                            <img src="images/apj.webp" class="img-fluid" alt="">
                                             <div class="play-btn">
-                                                <img src="images/play-button-arrowhead 1.svg" alt="">
-                                            </div>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="glide__slide">
-                                <div class="slide_bg">
-                                    <div class="swiper-text">
-                                        <div class="position-relative fit-content">
-                                            <img src="img/Artboard 1.png" class="img-fluid" alt="">
-                                            <div class="play-btn">
-                                                <img src="images/play-button-arrowhead 1.svg" alt="">
+                                                <img src="img/Artboard 2.png" alt="">
                                             </div>
                                         </div>
 
                                     </div>
                                 </div>
                             </li>
+                            
+
                         </ul>
                         <div class="glide__bullets" data-glide-el="controls[nav]">
                             <div class="glide__bullet"></div>
@@ -117,63 +107,24 @@
                             <div class="glide__bullet"></div>
                         </div>
                     </div>
-                    <div data-glide-el="controls">
+                    <!-- <div data-glide-el="controls">
                         <button class="slider-prev" data-glide-dir="<">
                             <img src="images/arrow-circle-right.svg" alt="">
                         </button>
                         <button class="slider-next" data-glide-dir=">">
                             <img src="images/arrow-circle-right.svg" alt="">
                         </button>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
         </section>
-
-        <!--==================== HOME ====================-->
-        <section class="home" id="home">
-            <div class="home__container container grid">
-                <img src="img/full-length-portrait-happy-family.jpg" alt="" class="home__img">
-
-                <div class="home__data">
-                    <h1 class="home__title">
-                        Family Visa
-                    </h1>
-                    <p class="home__description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos cumque dignissimos tempora
-                        praesentium aut nesciunt quo vero consectetur culpa facere possimus.
-                    </p>
-                    <a href="#about" class="button button--flex">
-                        Explore <i class="ri-arrow-right-down-line button__icon"></i>
-                    </a>
-                </div>
-
-                <div class="home__social">
-                    <span class="home__social-follow">Follow Us</span>
-
-                    <div class="home__social-links">
-                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
-                            <i class="ri-facebook-fill"></i>
-                        </a>
-                        <a href="https://instagram.com/q_sports_?igshid=YmMyMTA2M2Y=" target="_blank"
-                            class="home__social-link">
-                            <i class="ri-instagram-line"></i>
-                        </a>
-                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
-                            <i class="ri-twitter-fill"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
 
 
         <!--==================== ABOUT ====================-->
         <section class="about section container" id="about">
             <div class="about__container grid">
-                <img src="img/shop img.jpeg" alt="" class="about__img">
+                <img src="img/shop-img.jpeg" alt="" class="about__img">
 
                 <div class="about__data">
                     <h2 class="section__title about__title">
@@ -210,19 +161,63 @@
             </div>
         </section>
 
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <img src="img/fun-shopping.jpg" alt="" class="home__img">
+
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Family Visa
+                    </h1>
+                    <p class="home__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos cumque dignissimos tempora
+                        praesentium aut nesciunt quo vero consectetur culpa facere possimus.
+                    </p>
+                    <a href="#about" class="button button--flex">
+                        Explore <i class="ri-arrow-right-down-line button__icon"></i>
+                    </a>
+                </div>
+
+                <div class="home__social">
+                    <span class="home__social-follow">Follow Us</span>
+
+                    <div class="home__social-links">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="https://instagram.com/q_sports_?igshid=YmMyMTA2M2Y=" target="_blank"
+                            class="home__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
         <!--==================== STEPS ====================-->
-        <section class="steps section container">
+        <section class="steps section container" id="services">
             <div class="steps__bg">
                 <h2 class="section__title-center steps__title">
                     Check Our Services
                 </h2>
 
                 <div class="steps__container grid">
-                    <div class="steps__card">
-                        <div class="steps__card-number">01</div>
-                        <h3 class="steps__card-title">FAMILY VISA</h3>
+                    <a href="#home">
+                        <div class="steps__card">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__card-title">FAMILY VISA</h3>
 
-                    </div>
+                        </div>
+                    </a>
 
                     <div class="steps__card">
                         <div class="steps__card-number">02</div>

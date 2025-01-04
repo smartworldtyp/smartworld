@@ -2,7 +2,7 @@
 var glide = new Glide("#intro", {
     type: "carousel",
     perView: 1,
-    gap: 40,
+    gap: 100,
     autoplay: 2000,
     pagination: {
         el: ".glide__bullet",

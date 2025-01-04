@@ -875,6 +875,28 @@ the website, in dark theme
   border-radius: .5rem;
 }
 
+
+.det-prog {
+  display: flex;
+  gap: 8px;
+}
+
+.whatsapp-icon {
+  font-size: 3rem;
+  color: #075E54;
+  margin-top: .15rem;
+}
+
+.button-whatsapp {
+  color: #075E54;
+  font-size: 1.3rem;
+}
+
+.about__details-description {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /*-------------------------------------------------------------------- For medium devices --------------------------------------------------------------------*/
 @media screen and (max-width: 320px) {
@@ -917,7 +939,16 @@ the website, in dark theme
   .nav__logo img {
     width: 15%;
   }
-  
+
+  .whatsapp-icon {
+    font-size: 2rem;
+  }
+
+  .button-whatsapp {
+    color: #075E54;
+    font-size: 1rem;
+}
+
 }
 
 /*-------------------------------------------------------------------- For medium devices --------------------------------------------------------------------*/
@@ -928,7 +959,7 @@ the website, in dark theme
 
   .nav__logo img {
     width: 18%;
-}
+  }
 }
 
 
@@ -1159,6 +1190,7 @@ the website, in dark theme
 
 
 }
+
 
 @media screen and (min-width: 1200px) {
   .home__social {

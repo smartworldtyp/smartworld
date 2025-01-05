@@ -920,7 +920,8 @@ the website, in dark theme
   z-index: var(--z-tooltip);
   transition: .4s;
   font-size: 4rem;
-  color: green;
+  color: white;
+  background-color: #59CE72;
 }
 
 /*=============== SCROLL BAR ===============*/
@@ -999,7 +1000,6 @@ the website, in dark theme
     z-index: var(--z-tooltip);
     transition: .4s;
     font-size: 3rem;
-    color: green;
   }
 }
 
@@ -1063,15 +1063,14 @@ the website, in dark theme
 
   .whatsapp-fixed {
     position: fixed;
-    right: 0rem;
-    bottom: 0rem;
+    right: .5rem;
+    bottom: .5rem;
     display: inline-flex;
-    padding: 0.5rem;
-    border-radius: .25rem;
+    padding: 0.4rem;
+    border-radius: 50%;
     z-index: var(--z-tooltip);
     transition: .4s;
     font-size: 2.5rem;
-    color: green;
   }
 
   .home__social {

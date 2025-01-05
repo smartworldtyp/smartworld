@@ -866,15 +866,16 @@ the website, in dark theme
 
 .whatsapp-fixed {
   position: fixed;
-  background-color: var(--first-color);
-  right: 5rem;
-  bottom: 10%;
+  right: 6rem;
+  bottom: 31px;
   display: inline-flex;
   padding: .5rem;
   border-radius: .25rem;
   z-index: var(--z-tooltip);
   opacity: .8;
   transition: .4s;
+  font-size: 3rem;
+  color: green;
 }
 
 /*=============== SCROLL BAR ===============*/
@@ -911,6 +912,45 @@ the website, in dark theme
 }
 
 /*=============== BREAKPOINTS ===============*/
+
+
+/*-------------------------------------------------------------------- For medium devices --------------------------------------------------------------------*/
+@media screen and (max-width: 767px) {
+  .nav__logo {
+    font-size: 14px;
+  }
+
+  .nav__logo img {
+    width: 18%;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .nav__logo {
+    font-size: 18px;
+  }
+
+  .whatsapp-fixed {
+    position: fixed;
+    right: 4rem;
+    bottom: 33px;
+    display: inline-flex;
+    padding: 0.5rem;
+    border-radius: .25rem;
+    z-index: var(--z-tooltip);
+    opacity: .8;
+    transition: .4s;
+    font-size: 3rem;
+    color: green;
+  }
+}
+
+/*-------------------------------------------------------------------- For medium devices --------------------------------------------------------------------*/
+@media screen and (max-width: 1200px) {}
+
+
+
 /*-------------------------------------------------------------------- For medium devices --------------------------------------------------------------------*/
 @media screen and (max-width: 320px) {
   .container {
@@ -960,30 +1000,27 @@ the website, in dark theme
   .button-whatsapp {
     color: #075E54;
     font-size: 1rem;
-}
-
-}
-
-/*-------------------------------------------------------------------- For medium devices --------------------------------------------------------------------*/
-@media screen and (max-width: 767px) {
-  .nav__logo {
-    font-size: 14px;
   }
 
-  .nav__logo img {
-    width: 18%;
+  .home__social {
+    top: 6rem;
   }
-}
 
-
-@media screen and (max-width: 992px) {
-  .nav__logo {
-    font-size: 18px;
+  .whatsapp-fixed {
+    position: fixed;
+    right: 3rem;
+    bottom: 37px;
+    display: inline-flex;
+    padding: 0.5rem;
+    border-radius: .25rem;
+    z-index: var(--z-tooltip);
+    opacity: .8;
+    transition: .4s;
+    font-size: 2.5rem;
+    color: green;
   }
-}
 
-/*-------------------------------------------------------------------- For medium devices --------------------------------------------------------------------*/
-@media screen and (max-width: 1200px) {}
+}
 
 /*------------------------ For Min Width ----------------------*/
 
@@ -1103,10 +1140,10 @@ the website, in dark theme
 /* For large devices */
 @media screen and (min-width: 992px) {
 
-  .container {
+  /* .container {
     margin-left: auto;
     margin-right: auto;
-  }
+  } */
 
   .section {
     padding: 8rem 0 1rem;

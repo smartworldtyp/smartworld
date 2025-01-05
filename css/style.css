@@ -405,6 +405,7 @@ the website, in dark theme
   color: white;
   max-width: 80%;
   margin: auto;
+  font-size: 30px;
 }
 
 .mobile__home-second-title {
@@ -417,6 +418,23 @@ the website, in dark theme
 .full-sub {
   max-width: 90%;
   font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.mobile__home-btn {
+  background-color: black;
+  color: white;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  margin: auto;
+
+
+  a {
+    color: white;
+  }
 }
 
 /*=============== BUTTONS ===============*/
@@ -893,15 +911,14 @@ the website, in dark theme
 
 .whatsapp-fixed {
   position: fixed;
-  right: 6rem;
+  right: 2rem;
   bottom: 31px;
   display: inline-flex;
   padding: .5rem;
   border-radius: .25rem;
   z-index: var(--z-tooltip);
-  opacity: .8;
   transition: .4s;
-  font-size: 3rem;
+  font-size: 4rem;
   color: green;
 }
 
@@ -973,13 +990,12 @@ the website, in dark theme
 
   .whatsapp-fixed {
     position: fixed;
-    right: 4rem;
+    right: 1rem;
     bottom: 33px;
     display: inline-flex;
     padding: 0.5rem;
     border-radius: .25rem;
     z-index: var(--z-tooltip);
-    opacity: .8;
     transition: .4s;
     font-size: 3rem;
     color: green;
@@ -1046,13 +1062,12 @@ the website, in dark theme
 
   .whatsapp-fixed {
     position: fixed;
-    right: 3rem;
-    bottom: 37px;
+    right: 0rem;
+    bottom: 0rem;
     display: inline-flex;
     padding: 0.5rem;
     border-radius: .25rem;
     z-index: var(--z-tooltip);
-    opacity: .8;
     transition: .4s;
     font-size: 2.5rem;
     color: green;

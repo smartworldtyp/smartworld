@@ -392,6 +392,32 @@ the website, in dark theme
   transform: translateX(.25rem);
 }
 
+/*=============== MOBILE BUTTONS ===============*/
+.mobile__home-title {
+  text-align: center;
+  margin-bottom: 2PX;
+}
+
+.mobile__home-sub-title {
+  text-align: center;
+  margin-bottom: 2PX;
+  background-color: #4875c1;
+  color: white;
+  max-width: 80%;
+  margin: auto;
+}
+
+.mobile__home-second-title {
+  text-align: center;
+  margin-bottom: 2PX;
+  color: #052162;
+  font-size: 30px;
+}
+
+.full-sub{
+  max-width: 90%;
+  font-size: 18px;
+}
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
@@ -911,6 +937,11 @@ the website, in dark theme
   flex-wrap: wrap;
 }
 
+
+.mobile-home {
+  display: none;
+}
+
 /*=============== BREAKPOINTS ===============*/
 
 
@@ -922,6 +953,14 @@ the website, in dark theme
 
   .nav__logo img {
     width: 18%;
+  }
+
+  .desktop-home {
+    display: none;
+  }
+
+  .mobile-home {
+    display: block;
   }
 }
 
@@ -1135,15 +1174,16 @@ the website, in dark theme
 
 
 
+
 }
 
 /* For large devices */
 @media screen and (min-width: 992px) {
 
-  /* .container {
+  .container {
     margin-left: auto;
     margin-right: auto;
-  } */
+  }
 
   .section {
     padding: 8rem 0 1rem;
@@ -1261,9 +1301,14 @@ the website, in dark theme
     font-size: 1.15rem;
   }
 
-  .about__container {
-    column-gap: 7rem;
+  .home-banner {
+    padding-top: 140px;
   }
+
+
+  /* .about__container {
+    column-gap: 7rem;
+  } */
 
   .scrollup {
     right: 3rem;

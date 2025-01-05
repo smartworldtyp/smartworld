@@ -915,11 +915,11 @@ the website, in dark theme
   right: 2rem;
   bottom: 31px;
   display: inline-flex;
-  padding: .5rem;
-  border-radius: .25rem;
+  padding: .7rem;
+  border-radius: 50%;
   z-index: var(--z-tooltip);
   transition: .4s;
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: white;
   background-color: #59CE72;
 }
@@ -996,7 +996,7 @@ the website, in dark theme
     bottom: 33px;
     display: inline-flex;
     padding: 0.5rem;
-    border-radius: .25rem;
+    border-radius: 50%;
     z-index: var(--z-tooltip);
     transition: .4s;
     font-size: 3rem;

@@ -338,6 +338,7 @@ the website, in dark theme
 .home__img {
   /* width: 200px; */
   justify-self: center;
+  border-radius: 10px;
 }
 
 .home__title {
@@ -487,6 +488,7 @@ the website, in dark theme
 .about__img {
   width: 100%;
   justify-self: center;
+  border-radius: 10px;
 }
 
 .about__title {
@@ -1207,6 +1209,7 @@ the website, in dark theme
   .about__img {
     width: 100%;
     justify-self: center;
+    border-radius: 10px;
   }
 
 

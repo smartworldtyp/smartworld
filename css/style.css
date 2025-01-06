@@ -116,6 +116,7 @@ img {
 
 .home-banner img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .theme-image {

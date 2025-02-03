@@ -797,6 +797,9 @@ the website, in dark theme
   row-gap: 3rem;
 }
 
+.footer{
+  background-color: #3f3f3f;
+}
 .footer__logo {
   display: inline-flex;
   align-items: center;
@@ -821,6 +824,7 @@ the website, in dark theme
 .footer__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1-5);
+  color: white;
 }
 
 .footer__subscribe {
@@ -851,6 +855,7 @@ the website, in dark theme
 
 .footer__information {
   font-size: var(--small-font-size);
+  color: white;
 }
 
 .footer__social {
@@ -860,7 +865,7 @@ the website, in dark theme
 
 .footer__social-link {
   font-size: 1rem;
-  color: var(--text-color);
+  color: white;
   transition: .3s;
 }
 
@@ -881,7 +886,7 @@ the website, in dark theme
 .footer__copy {
   text-align: center;
   font-size: var(--smaller-font-size);
-  color: var(--text-color-light);
+  color: white;
   margin: 5rem 0 1rem;
 }
 
